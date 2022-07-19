@@ -158,3 +158,29 @@ body {
 .transfer-live img {
     margin: 20px;
 }
+
+.last-part {
+    background-color: black;
+}
+
+.goal {
+    padding: 80px 0px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px dotted white;
+    margin: 0px 200px;
+}
+
+.hyperlinks {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20%;
+    padding-bottom: 100px;
+}
+
+.hyperlinks a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-weight: 500;
+    font-size: 16px;
+}
