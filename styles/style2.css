@@ -81,14 +81,13 @@ body {
     background-color: black;
     border-radius: 11.4423px;
 
-
-
 }
 
 .blog-box a {
     text-decoration: none;
     text-align: center;
     border: 2px solid black;
+    border-radius: 12.5px;
     padding: 20px 0px;
     font-weight: 600;
     font-size: 20px;
@@ -97,67 +96,47 @@ body {
 
 }
 
-
-.white-box {
-    padding: 5px 20px;
-    border: 1.14423px solid #161616;
-    margin: 5px 30px;
-    border-radius: 5.72115px;
-    background-color: white;
-    font-weight: 500;
-    font-size: 18.3077px;
-
-}
-
-.time {
-    display: flex;
-    align-items: center;
-    margin: 0px 20px;
-}
-
-.time img {
-    padding: 0px 10px;
-}
-
-.hour {
-    font-weight: 400;
-    font-size: 18.3077px;
-    color: rgba(22, 22, 22, 0.7);
-}
-
-.transfer-live h4 {
-    margin: 7%;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.time-comment {
-    display: flex;
-    margin-bottom: 20px;
-
-}
-
-.group-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
-    width: 100%;
-}
-
 .main-group-box {
     display: flex;
     justify-content: center;
     margin: 6%;
 }
 
-.transfer-live {
-    border: 1px solid black;
-    border-radius: 12px
+.flag-vs-flag {
+    display: flex;
+    align-items: center;
+
 }
 
-.transfer-live img {
-    margin: 20px;
+.flag-vs-flag h3 {
+    margin: 0px 20px;
+}
+
+.match h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.match p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+}
+
+.group-box {
+    border: 1px solid #E8E8E8;
+    padding: 53px 33px;
+    border-radius: 12.5px;
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
 }
 
 /* ----------last part -------------------*/
