@@ -1,0 +1,160 @@
+/*----------- FONTS----------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------- First Banner --------------------*/
+.container {
+    position: relative;
+    width: 100%;
+
+}
+
+.back2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 0%;
+    height: 100%;
+    transition: .1s ease-in-out;
+}
+
+.container:hover .overlay {
+    width: 100%;
+}
+
+.banner-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+
+
+}
+
+.banner-text h1 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.banner-text p {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    color: white;
+    padding: 16px 25px;
+    background-color: #DD0000;
+    border-radius: 5px;
+}
+
+.blog-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: 312px;
+    width: 312px;
+    grid-gap: 30px;
+    padding: 20px;
+    border: 2px solid black;
+    margin-right: 50px;
+    background-color: black;
+    border-radius: 11.4423px;
+
+
+
+}
+
+.blog-box a {
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px 0px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+
+}
+
+
+.white-box {
+    padding: 5px 20px;
+    border: 1.14423px solid #161616;
+    margin: 5px 30px;
+    border-radius: 5.72115px;
+    background-color: white;
+    font-weight: 500;
+    font-size: 18.3077px;
+
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.time img {
+    padding: 0px 10px;
+}
+
+.hour {
+    font-weight: 400;
+    font-size: 18.3077px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.transfer-live h4 {
+    margin: 7%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.time-comment {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.group-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    width: 100%;
+}
+
+.main-group-box {
+    display: flex;
+    justify-content: center;
+    margin: 6%;
+}
+
+.transfer-live {
+    border: 1px solid black;
+    border-radius: 12px
+}
+
+.transfer-live img {
+    margin: 20px;
+}
