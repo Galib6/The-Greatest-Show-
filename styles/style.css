@@ -9,7 +9,7 @@ body {
 .container1 {
     display: flex;
     background-color: black;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 0px 50px;
     align-items: center;
     border-radius: 30px;
