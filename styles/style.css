@@ -166,9 +166,9 @@ body {
 
 .hyperlinks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 20%;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
     margin-top: 70px;
 }
 
@@ -177,6 +177,23 @@ body {
     color: #B9B9B9;
     font-weight: 500;
     font-size: 16px;
+    padding: 20px;
+
+}
+
+.social-icons a {
+    font-size: 30px;
+    color: white;
+    margin: 30px 6px 40px 30px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center
+}
+
+.view-all-button {
+    display: none;
 }
 
 /* -----------Responsiveness ------------*/
@@ -279,7 +296,83 @@ body {
     .hyperlinks a {
         text-align: center;
     }
+}
+
+/* ---------------------Tablet-view---------------- */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container1 {
+        width: 100%;
+        margin: 0px;
+        justify-content: center;
 
 
+    }
 
+    .image img {
+        margin: 30px auto -7px auto;
+        width: 323px;
+        height: 340px;
+    }
+
+    .banner-text h1 {
+        margin: 0px;
+        font-size: 30px;
+    }
+
+    .banner-text p {
+        font-weight: 400;
+        font-size: 11px;
+    }
+
+    .banner-text a {
+        padding: 12px;
+        border-radius: 5px;
+    }
+
+    .blog-box {
+        grid-template-columns: repeat(3, 1fr);
+        background-color: white;
+        height: auto;
+        width: auto;
+        align-self: center;
+        justify-self: center;
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    .blog-box a {
+        border: 2px solid black;
+        padding: 15px 5px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+
+    .main-group-box {
+        grid-template-columns: auto;
+    }
+
+    .group-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hyperlinks {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .view-all-button {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .view-all-button a {
+        text-decoration: none;
+        padding: 10px;
+        background-color: #DD0000;
+        color: white;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
 }
